@@ -1,3 +1,7 @@
+//1. Create a Java program to serialize and deserialize a Student object. The program should:
+//Serialize a Student object (containing id, name, and GPA) and save it to a file.
+//Deserialize the object from the file and display the student details.
+//Handle FileNotFoundException, IOException, and ClassNotFoundException using exception handling.
 import java.io.*;
 
 class Student implements Serializable {
